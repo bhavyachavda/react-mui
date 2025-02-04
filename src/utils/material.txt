@@ -1,0 +1,164 @@
+Typography
+
+    variant="h1" 
+    variant="h2" 
+    variant="h3" 
+    variant="h4" 
+    variant="h5" 
+    variant="h6" 
+    variant="subtitle1"   it will take h6 tag
+    variant="subtitle2"   it will take h6 tag
+    variant="body1"       it will take paragaphy tag
+    variant="body2"       it will take paragaphy tag
+
+    component="h1"
+
+    gutterBottom
+    
+Button
+    href
+    variant="contained",text,outlined
+    color="primary",secondary,error,warning,info,success
+    size="small",medium,large
+    StartIcon, endIcon
+
+ButtonGroup
+    variant="text" 
+    orientation="vertical" 
+    size="small"
+
+ToggleButtonGroup, ToggleButton
+
+TextField
+    variant="outlined",filled,standard 
+    size="small"
+    color="secondary"
+    helperText
+    error
+    select
+
+Select 
+    fullWidth
+    SelectProps={{multiple: true}}
+    MenuItem
+
+Radio
+    FromControl
+    FormLabel
+    FormControlLabel
+    RadioGroup
+    Radio
+    FormHelperText
+
+Checkbox
+
+Switch
+    FormControlLabel
+    control={<Switch/>}
+
+Rating 
+    highlightSelectedOnly
+    emptyIcon
+    precision
+
+Autocomplete 
+    options
+    renderInput
+    freeSolo
+
+Box
+
+Stack
+    It is used for one dimensions
+    divider={<Divider orientation="vertical" flexItem/>}
+
+Grid
+    It is two dimensions 
+
+Paper
+
+Card
+  Box
+    Card
+        CardMedia
+        CardContent
+            Typography
+
+        CardActions
+            Button 
+
+Accordion   props expanded
+    AccordionSummary
+    AccordionDetails
+
+ImageList
+    ImageListItem
+        ImageListItemBar
+
+Navbar
+    AppBar
+        ToolBar
+            IconButton
+              CatchingPokemonIcon
+            Typography
+            Stack
+                Button
+
+Menu
+
+Link
+
+Breadcrumbs 
+    separator={<NavigateNextIcon fontSize="small"/> }
+    maxItems={2}
+    itemsBeforeCollapse={2}
+    itemsAfterCollapse={2}
+
+Drawer
+    anchor="left"
+    open
+    onClose
+
+SpeedDial props arialabel sx={{ position: "absolute", bottom: 16, right: 16 }} icon={<SpeedDialIcon openIcon={<EditIcon />} />}
+    SpeedDialAction props icon, tooltipTitle tooltipOpen
+
+BottomNavigation  props onChange, showLabels
+    BottomNavigationAction props icon, label, onClick
+
+Avatar
+    AvatarGroup
+        Avatar
+ 
+Badge props badgeContent={8} color="primary"
+
+List 
+    ListItem
+        ListItemButton
+            ListItemIcon
+                ListItemAvatar
+                    Avatar
+                        MailIcon
+    Divider
+ 
+Chip props label, color, size, variant, avatar, onClick, onDelete
+
+Tooltip props title placement arrow enterDelay leaveDelay
+
+Table 
+    TableContainer 
+        Table
+            TableHead
+                TableRow
+                    TableCell
+            TableBody
+                TableRow
+
+Alert props severity variant onClose icon action
+
+Snackbar props open, onClose, anchorOrigin, severity message, autoHideDuration
+
+
+
+    
+
+ 
