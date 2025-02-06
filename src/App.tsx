@@ -33,6 +33,7 @@ import MuiDialog from "./components/MuiDialog.tsx";
 import MuiProgress from "./components/MuiProgress.tsx";
 import MuiSkeleton from "./components/MuiSkeleton.tsx";
 import MuiLoadingButton from "./components/MuiLoadingButton.tsx";
+import CheckboxTask from "./components/CheckboxTask.tsx";
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
         {/* <MuiTextField/> */}
         {/* <MuiSelect/> */}
         {/* <MuiRadio/> */}
-        <MuiCheckbox/>
+        {/* <MuiCheckbox/> */}
         {/* <MuiSwitch/> */}
         {/* <MuiRating/> */}
         {/* <MuiAutoComplete/> */}
@@ -62,13 +63,14 @@ function App() {
         {/* <MuiList/> */}
         {/* <MuiChip/> */}
         {/* <MuiToolTip/> */}
-        <MuiTable/>
+        {/* <MuiTable/> */}
         {/* <MuiAlert/> */}
         {/* <MuiSnackBar/> */}
         {/* <MuiDialog/> */}
         {/* <MuiProgress/> */}
         {/* <MuiSkeleton/> */}
         {/* <MuiLoadingButton /> */}
+        <CheckboxTask/>
       </div>
     // </LocalizationProvider>
   );
