@@ -34,6 +34,7 @@ import MuiProgress from "./components/MuiProgress.tsx";
 import MuiSkeleton from "./components/MuiSkeleton.tsx";
 import MuiLoadingButton from "./components/MuiLoadingButton.tsx";
 import CheckboxTask from "./components/CheckboxTask.tsx";
+import Image from "./components/Image.tsx";
 
 function App() {
   return (
@@ -70,7 +71,8 @@ function App() {
         {/* <MuiProgress/> */}
         {/* <MuiSkeleton/> */}
         {/* <MuiLoadingButton /> */}
-        <CheckboxTask/>
+        {/* <CheckboxTask/> */}
+        <Image/>
       </div>
     // </LocalizationProvider>
   );
